@@ -1,0 +1,14 @@
+# The AWS credentials profile you want to use for the session
+profile: account1
+
+# The name of the Secrets Manager secret
+secret_name: foo
+
+# If your secret is properly formed JSON in the Key:keyname, Value:val syntax
+# (see README for syntax) then it will pull the key you specify
+# with the 'tag' parameter
+tag: username
+
+# Boolean true or false whether or not you want to return 
+# the raw JSON of the secret
+raw: true 
