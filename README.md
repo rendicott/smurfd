@@ -4,6 +4,8 @@ Simple AWS Secrets Manager CLI Client
 
 Returns AWS Secrets Manager secrets in simple formatting based on the desire from the user.
 
+Useful for when you want to grab secrets and you don't want to deal with the full AWS CLI and all its nasty python dependencies or if you just want a lightweight binary to distribute to docker images, etc. 
+
 ## Usage
 Here's the general usage help from the CLI.
 ```
